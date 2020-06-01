@@ -1,7 +1,7 @@
   const eqArrays = function(arr1, arr2) { 
   // arr1.sort(function(a, b){return a-b});
   // arr2.sort(function(a, b){return a-b});
-  console.log("arr1:", arr1, "arr2", arr2)
+  // console.log("arr1:", arr1, "arr2", arr2)
   
   // if (typeof(arr1))
   
@@ -22,7 +22,7 @@
   //     return parseInt(x, 10);
   //   }) }}
 
-  console.log("arr1 after loop:", arr1, "arr2 numbers:", arr2)
+  // console.log("arr1 after loop:", arr1, "arr2 numbers:", arr2)
   for (let i = 0; i < arr1.length; i++) {
     if (arr1[i] !== arr2[i]) {
       return false;
