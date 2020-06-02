@@ -35,3 +35,6 @@ const assertEqual = function(actual, expected) {
   }
 
 assertArraysEqual(without(['hi', 'hello'], ['hi']), ['hello', 'what'])
+
+
+module.exports = without;
